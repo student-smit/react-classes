@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: #111111;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.page {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 40px;
+  padding: 40px 20px;
+}
+
+.card {
+  background-color: #1a1a1a;
+  border: 2px solid #00cc44;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 204, 68, 0.3);
+  padding: 10px 10px;
+  width: 320px;
+  text-align: center;
+}
+
+.teacher-card {
+  border-color: #009933;
+  box-shadow: 0 0 20px rgba(0, 153, 51, 0.3);
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #00cc44;
+  margin-bottom: 15px;
+  object-fit: cover;
+}
+
+.name {
+  color: #00cc44;
+  font-size: 22px;
+  margin-bottom: 6px;
+}
+
+.course {
+  color: #ffffff;
+  font-size: 16px;
+  margin-bottom: 4px;
+}
+
+.institute {
+  color: #aaaaaa;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.intro {
+  color: #cccccc;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #00cc44;
+  color: #111111;
+  border: none;
+  padding: 10px 28px;
+  border-radius: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #009933;
+  color: #ffffff;
+}
